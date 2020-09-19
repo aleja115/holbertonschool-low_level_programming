@@ -4,14 +4,12 @@
  *
  *Return: 0
  */
-
 int main(void)
 {
-char c = i;
-for (i = 97; i < 123; i++)
-if (i != 101 && i != 113)
+int c;
+for (c = 97; c < 123; c++)
+if (c != 101 && c != 113)
 putchar(c);
 putchar('\n');
 return (0);
 }
-
