@@ -7,42 +7,21 @@
 int main(void)
 {
 int i;
+int j=97;
+char c;
 for (i = 48; i < 64; i++)
 {
-char c;
-if (i < 58)
-{
-putchar(i);
+if (i < 58){
+c = i;
 }
 else
 {
-if (i == 58)
-{
-c = 'a';
+if (i > 57){
+c = j++;
 }
-if (i == 59)
-{
-c = 'b';
-}
-if (i == 60)
-{
-c = 'c';
-}
-if (i == 61)
-{
-c = 'd';
-}
-if (i == 62)
-{
-c = 'e';
-}
-if (i == 63)
-{
-c = 'f';
 }
 putchar(c);
+}
 putchar('\n');
-}
-}
-return (0);
+return 0;
 }
