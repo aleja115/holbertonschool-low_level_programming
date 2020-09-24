@@ -6,15 +6,15 @@
  */
 int main(void)
 {
-putchar('H');
-putchar('o');
-putchar('l');
-putchar('b');
-putchar('e');
-putchar('r');
-putchar('t');
-putchar('o');
-putchar('n');
-putchar(10);
+putchar(72);
+putchar(111);
+putchar(108);
+putchar(98);
+putchar(101);
+putchar(114);
+putchar(116);
+putchar(111);
+putchar(110);
+putchar('\n');
 return (0);
 }
